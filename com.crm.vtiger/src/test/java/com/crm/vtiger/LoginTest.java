@@ -18,10 +18,10 @@ public class LoginTest {
 	@Test
 	public void login()
 	{
-		String browser = System.getProperty("browser");
-		String link = System.getProperty("url");
-		String id = System.getProperty("username");
-		String pas = System.getProperty("password");
+		String browser = System.getProperty("Browser");
+		String link = System.getProperty("Url");
+		String id = System.getProperty("Username");
+		String pas = System.getProperty("Password");
 		
 	WebDriver driver = null;
 	if(browser.equals("chrome")) {
